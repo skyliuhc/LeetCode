@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TwosumTemplate {
+public class TwoSumTemplate {
 
     List<List<Integer>> twoSumTarget(int[] nums, int target) {
         Arrays.sort(nums);
