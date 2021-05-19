@@ -1,4 +1,4 @@
-package Basic;
+package Labuladong.src.Basic;
 
 /**
  * @author skyliuhc
