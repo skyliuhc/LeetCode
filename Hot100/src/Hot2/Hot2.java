@@ -1,3 +1,5 @@
+package Hot2;
+
 public class Hot2 {
 
     public class ListNode{

@@ -1,3 +1,5 @@
+package Hot4;
+
 public class Hot4 {
     //这是O(m+n) 不是O(log(m+n))
     //合并两个有序数组再返回中位数，其实也不用合并完
