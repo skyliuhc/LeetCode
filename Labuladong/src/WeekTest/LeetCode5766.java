@@ -14,5 +14,4 @@ public class LeetCode5766 {
             }
             return res;
         }
-
 }
