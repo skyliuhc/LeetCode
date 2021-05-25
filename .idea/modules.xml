@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hot100/Hot100.iml" filepath="$PROJECT_DIR$/Hot100/Hot100.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dxc_template/dxc_template.iml" filepath="$PROJECT_DIR$/dxc_template/dxc_template.iml" />
     </modules>
   </component>
 </project>

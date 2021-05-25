@@ -1,4 +1,4 @@
-package BinarySearch;
+package Labuladong.src.BinarySearch;
 
 public class Solution {
     int binary_search(int[] nums, int target) {
