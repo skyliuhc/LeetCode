@@ -1,4 +1,4 @@
-package LeetCode421;
+package LeetCode421_findMaximumXOR;
 
 public class Solution {
 
