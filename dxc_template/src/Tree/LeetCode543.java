@@ -2,6 +2,7 @@ package Tree;
 
 public class LeetCode543 {
     public int ans;
+    //求树的直径
     public int diameterOfBinaryTree(TreeNode root) {
         ans=0;
         dfs(root);
