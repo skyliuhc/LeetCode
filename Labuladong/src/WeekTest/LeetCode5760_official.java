@@ -1,4 +1,4 @@
-package WeekTest;
+package Labuladong.src.WeekTest;
 
 public class LeetCode5760_official {
     public int minSwaps(String s) {
