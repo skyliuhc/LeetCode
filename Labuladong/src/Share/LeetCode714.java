@@ -1,4 +1,4 @@
-package Share;
+package Labuladong.src.Share;
 
 public class LeetCode714 {
 

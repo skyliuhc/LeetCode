@@ -34,7 +34,6 @@ public class AllTraverse {
     public void traverse(ListNode head){
         for (ListNode p=head;p!=null;p=p.next){
             System.out.println(p.val);
-
         }
     }
     /**
