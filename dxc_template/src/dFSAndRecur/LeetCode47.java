@@ -1,5 +1,6 @@
 package dFSAndRecur;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -32,6 +33,11 @@ public class LeetCode47 {
             backtrack(nums, ans, idx + 1, perm);
             vis[i] = false;
             perm.remove(idx);
+
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Integer.MAX_VALUE);
     }
 }
