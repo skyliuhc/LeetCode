@@ -1,12 +1,10 @@
 package dFSAndRecur;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class LeetCode47 {
-
     boolean[] vis;
 
     public List<List<Integer>> permuteUnique(int[] nums) {
@@ -16,6 +14,7 @@ public class LeetCode47 {
         Arrays.sort(nums);
         backtrack(nums, ans, 0, perm);
         return ans;
+
     }
 
     private void backtrack(int[] nums, List<List<Integer>> ans, int idx, List<Integer> perm) {
@@ -32,12 +31,23 @@ public class LeetCode47 {
             vis[i] = true;
             backtrack(nums, ans, idx + 1, perm);
             vis[i] = false;
+
             perm.remove(idx);
 
         }
     }
 
     public static void main(String[] args) {
-        System.out.println(Integer.MAX_VALUE);
+//        System.out.println(-3%3);
+//        int num = 10;
+//        System.out.println("num = " + num);
+//        String[] arr ={"cnm","nmsl","fuck"};
+//        for (int i = 0; i < arr.length; i++) {
+//            String s = arr[i];
+//        }
+//        ArrayList<Object> list = new ArrayList<>();
+//        list.add(123);
+//        list.add(456);
+//        list.add(789);
     }
 }

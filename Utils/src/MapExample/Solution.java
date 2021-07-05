@@ -16,6 +16,7 @@ public class Solution {
         for(String key : map.keySet()){
             System.out.println("key="+key+" and value ="+map.get(key));
         }
+
         System.out.println("通过Map.entrySet使用iterator遍历key和value：");
         Iterator<Map.Entry<String,String>> it = map.entrySet().iterator();
         while(it.hasNext()){
