@@ -1,4 +1,4 @@
-package forJob;
+package forJob.vivo;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Intervals;
+package Labuladong.src.Intervals;
 
 import java.util.*;
 

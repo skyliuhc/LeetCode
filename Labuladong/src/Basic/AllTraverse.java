@@ -53,11 +53,11 @@ public class AllTraverse {
     }
 
     void traverse(TreeNode root){
-        //  前序遍历
+        //  前序遍历 System.out.println(root.val);
         traverse(root.left);
-        // 中序遍历
+        // 中序遍历  System.out.println(root.val);
         traverse(root.right);
-        // 后序遍历
+        // 后序遍历  System.out.println(root.val);
     }
 
     class NTreeNode{
