@@ -11,7 +11,7 @@ public class Main {
     static int N = 12, M = 1 << N;
     static long f[][] = new long[N][M];
     static boolean st[] = new boolean[M];
-
+    //咋回事啊
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int n, m;
