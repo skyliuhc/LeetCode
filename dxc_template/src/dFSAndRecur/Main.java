@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author skyliuhc
- * @create 2021-07-27-3:26 下午
+ * @create 2021-07-27-3:26 下午1
  */
 public class Main {
     //蒙特利安的梦想
