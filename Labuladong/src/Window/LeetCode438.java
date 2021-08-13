@@ -1,4 +1,4 @@
-package Window;
+package Labuladong.src.Window;
 
 import java.util.ArrayList;
 import java.util.HashMap;

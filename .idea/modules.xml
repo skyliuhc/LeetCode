@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/ACMmode/ACMmode.iml" filepath="$PROJECT_DIR$/ACMmode/ACMmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hot100/Hot100.iml" filepath="$PROJECT_DIR$/Hot100/Hot100.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Summary/Summary.iml" filepath="$PROJECT_DIR$/Summary/Summary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/dxc_template/dxc_template.iml" filepath="$PROJECT_DIR$/dxc_template/dxc_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weektes/weektes.iml" filepath="$PROJECT_DIR$/weektes/weektes.iml" />
     </modules>
   </component>
 </project>

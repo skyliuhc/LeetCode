@@ -1,4 +1,4 @@
-package Labuladong.src.WeekTest;
+package WeekTest;
 
 /**
  * @author skyliuhc
