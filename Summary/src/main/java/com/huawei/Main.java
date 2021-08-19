@@ -22,38 +22,7 @@ import java.util.Comparator;
 
 public class Main {
 
-    //    public static void main(String[] args) throws IOException {
-//        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-//        String strs = in.readLine();
-//        System.out.println(strs);
-//        int len = strs.length();
-//        String sub1 = strs.substring(1, strs.length() - 1);//求掉首尾的括号
-//        System.out.println(sub1);
-//
-//        ArrayList<Integer> list = new ArrayList<>();
-//        for (int i = 0; i < len; i++) {
-//            char c =sub1.charAt(i);
-//            StringBuilder sb = new StringBuilder();
-//            while (c>='0' && c<='9'){
-//                sb.append(c);
-//                c =strs.charAt(++i);
-//            }
-//            String value = sb.toString();
-//            int t = Integer.parseInt(value);
-//            list.add(t);
-//        }
-//
-//        System.out.println(list);
-//        int size = list.size() / 2;
-//        int[][] arr = new int[size][2];
-//        for (int i = 0; i < size; i++) {
-//            int a = Integer.parseInt(String.valueOf(list.get(2* i)));
-//            int b = Integer.parseInt(String.valueOf(list.get(i * 2 + 1)));
-//            arr[i][0] = Math.min(a,b);
-//            arr[i][1] = Math.max(a,b);
-//        }
-//        System.out.println(maxW(arr));
-//    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String strs = in.readLine();
