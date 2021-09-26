@@ -31,6 +31,18 @@ public class offer26_reOrderList2 {
         return s;
     }
 
+
+//    1 -> 2 -> 3 -> 4 -> 5 -> 6
+//    第一步，将链表平均分成两半
+//        1 -> 2 -> 3
+//        4 -> 5 -> 6
+//
+//    第二步，将第二个链表逆序
+//        1 -> 2 -> 3
+//        6 -> 5 -> 4
+//
+//    第三步，依次连接两个链表
+//       1 -> 6 -> 2 -> 5 -> 3 -> 4
     //合并链表
     public void mergeList(ListNode l1, ListNode l2) {
         ListNode l1_t;
