@@ -8,7 +8,11 @@ public class LeetCode1288_greedy {
     public int removeCoveredIntervals(int[][] intervals) {
         Arrays.sort(intervals, new Comparator<int[]>() {
             public int compare(int[] o1, int[] o2) {
-                return o1[0] == o2[0] ? o2[1] - o1[1] : o1[0] - o2[0];
+                if (o1[0] == o2[0]) {
+                    return o2[1] - o1[1];
+                } else {
+                    return o1[0] - o2[0];
+                }
             }
         });
         int count = 0; //不被删除的区间数
@@ -17,7 +21,7 @@ public class LeetCode1288_greedy {
             end = cur[1];
             if (prev_end < end) {
                 count++;
-                prev_end =end;
+                prev_end = end;
             }
         }
         return count;
